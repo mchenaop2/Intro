@@ -21,8 +21,15 @@ with col1:
   st.write("las interfaces multimodales")
   resp = st.checkbox("KHE")
   if resp:
-    st.write("Nose")
+    st.write("correcto")
 
 with col2:
   st.subheader("segunda columna")
-  modo = st.radio("ne se que estoy haciendo", ("Cami","brisa", "ehh"))
+  modo = st.radio("Que modalidad es la principal en tu interfaz", ("Visual","Auditiva", "Tactil"))
+  if modo =="visual":
+    st.write("La vista es fundamental para tu interfaz")
+  if modo == "auditiva":
+    st.write("La audicion es fundamental para tu interfaz")
+  if modo == "tactil":
+    st.write("El tacto es fundamental para tu interfaz")
+    
