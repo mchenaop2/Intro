@@ -11,3 +11,16 @@ st.image(image, caption="Beach")
 
 texto = st.text_input("Gatossss" , "BRISA")
 st.write("quesueñooo", texto)
+
+st.subheader("Ahora usemos 2 columnas")
+
+with coll:
+  st.subheader("Primera columna")
+  st.write("las interfaces multimodales")
+  resp = st.checkbox("KHE")
+  if resp:
+    st.write("Nose")
+
+with col2:
+  st.subheader("segunda columna")
+  modo = st.radio("ne se que estoy haciendo", ("Cami","brisa", "ehh"))
