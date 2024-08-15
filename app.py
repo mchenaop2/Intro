@@ -14,6 +14,8 @@ st.write("quesueñooo", texto)
 
 st.subheader("Ahora usemos 2 columnas")
 
+col1, col2 = st.colums(2)
+
 with coll:
   st.subheader("Primera columna")
   st.write("las interfaces multimodales")
