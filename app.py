@@ -16,7 +16,7 @@ st.subheader("Ahora usemos 2 columnas")
 
 col1, col2 = st.columns(2)
 
-with coll:
+with col1:
   st.subheader("Primera columna")
   st.write("las interfaces multimodales")
   resp = st.checkbox("KHE")
